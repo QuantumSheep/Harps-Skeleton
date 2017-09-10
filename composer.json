@@ -4,7 +4,7 @@
   "license": "MIT",
   "require": {
     "philo/laravel-blade": "3.*",
-    "phpmailer/phpmailer": "~6.0"
+    "phpmailer/phpmailer": "~6.0",
 	"harps/harps": "@dev"
   },
   "autoload": {
