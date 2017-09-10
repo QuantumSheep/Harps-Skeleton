@@ -1,0 +1,27 @@
+{
+  "name": "harps/harps-skeleton",
+  "description": "Harps - Fast, complete and easy to use PHP Framework",
+  "license": "MIT",
+  "require": {
+    "philo/laravel-blade": "3.*",
+    "phpmailer/phpmailer": "~6.0"
+	"harps/harps": "@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Config\\": "config/",
+      "App\\": "app/"
+    },
+	"files": [
+        "config/Parameters.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Nathanael Demacon",
+      "email": "nathanael.dmc@outlook.fr",
+      "homepage": "https://github.com/QuantumSheep",
+      "role": "Developer"
+    }
+  ]
+}
