@@ -53,13 +53,13 @@ define("DIR_ROOT", dirname(dirname(dirname((new \ReflectionClass(\Composer\Autol
 define("DIR_APP", DIR_ROOT . "app" . DS);
 define("DIR_CONFIG", DIR_ROOT . "config" . DS);
 
-define("DIR_VIEWS", DIR_APP . "views" . DS);
-define("DIR_CONTROLLERS", DIR_APP . "controllers" . DS);
-define("DIR_MANAGERS", DIR_APP . "managers" . DS);
-define("DIR_MODELS", DIR_APP . "models" . DS);
+define("DIR_VIEWS", DIR_APP . "Views" . DS);
+define("DIR_CONTROLLERS", DIR_APP . "Controllers" . DS);
+define("DIR_MANAGERS", DIR_APP . "Managers" . DS);
+define("DIR_MODELS", DIR_APP . "Models" . DS);
 
-define("DIR_BLADE_CACHE", DIR_ROOT . "cache" . DS);
+define("DIR_BLADE_CACHE", DIR_ROOT . "Cache");
 
-define("DIR_EXCEPTIONS_VIEWS", DIR_VIEWS . "exceptions" . DS);
+define("DIR_EXCEPTIONS_VIEWS", DIR_VIEWS . "Exceptions" . DS);
 define("FILE_ERROR_500", DIR_EXCEPTIONS_VIEWS . "500.php");
 define("FILE_ERROR_500_DEV", DIR_EXCEPTIONS_VIEWS . "500-DEV.php");
