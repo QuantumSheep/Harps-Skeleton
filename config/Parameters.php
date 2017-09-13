@@ -58,7 +58,7 @@ define("DIR_CONTROLLERS", DIR_APP . "Controllers" . DS);
 define("DIR_MANAGERS", DIR_APP . "Managers" . DS);
 define("DIR_MODELS", DIR_APP . "Models" . DS);
 
-define("DIR_BLADE_CACHE", DIR_ROOT . "Cache");
+define("DIR_BLADE_CACHE", DIR_ROOT . "cache");
 
 define("DIR_EXCEPTIONS_VIEWS", DIR_VIEWS . "Exceptions" . DS);
 define("FILE_ERROR_500", DIR_EXCEPTIONS_VIEWS . "500.php");
