@@ -1,4 +1,4 @@
-@extends('/Templates/_Layout')
+@extends('/templates/_Layout')
 @section('title', 'Welcome to Harps')
 @section('content')
 Welcome to Harps!<br />

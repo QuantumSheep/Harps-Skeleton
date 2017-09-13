@@ -13,6 +13,6 @@ class DefaultController extends Controller
         $model->php_version = DefaultManager::GetVersion();
         $model->current_uri = DefaultManager::GetCurrentUri();
 
-        return self::view("default", $model);
+        return view("default", $model);
     }
 }

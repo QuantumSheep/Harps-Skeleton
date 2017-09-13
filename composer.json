@@ -9,7 +9,6 @@
   },
   "autoload": {
     "psr-4": {
-      "Config\\": "config/",
       "App\\": "app/"
     },
 	"files": [
