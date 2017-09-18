@@ -15,14 +15,23 @@ define("GET_ALL_ERRORS", false); // true = Active the full error handling | fals
  *
  * DATABASE INFORMATIONS
  *
+ * - Refer to the PDO class for drivers
+ * - You can add as much connexions as you want
+ *
  */
 
-define("DB_HOST", "");
-define("DB_PORT", "");
-define("DB_USER", "");
-define("DB_PASS", "");
-define("DB_NAME", "");
-define("DB_HOST_PORT", DB_HOST . ":" . DB_PORT);
+define("DB_CONNEXIONS", [
+    "default" => [
+        "driver" => "mysql",
+        "host" => "localhost",
+        "port" => 3306, // Optional
+        "user" => "root",
+        "pass" => "",
+        "name" => ""
+    ]
+]);
+
+define("DB_CONNEXION_DEFAULT", "default");
 
 
 
@@ -58,7 +67,7 @@ define("DIR_CONTROLLERS", DIR_APP . "Controllers" . DS);
 define("DIR_MANAGERS", DIR_APP . "Managers" . DS);
 define("DIR_MODELS", DIR_APP . "Models" . DS);
 
-define("DIR_BLADE_CACHE", __DIR__ . "/cache");
+define("DIR_BLADE_CACHE", dirname(__DIR__) . "/cache");
 
 define("DIR_EXCEPTIONS_VIEWS", DIR_VIEWS . "Exceptions" . DS);
 define("FILE_ERROR_500", DIR_EXCEPTIONS_VIEWS . "500.php");
