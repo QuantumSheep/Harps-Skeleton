@@ -1,3 +1,5 @@
-Options -MultiViews
-    RewriteEngine On
-    RewriteRule ^ index.php [QSA,L]
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteRule ^(.*?)\.(css|js|jpg|jpeg|png|gif|pdf)$ - [L]
+RewriteRule ^ index.php [L]
