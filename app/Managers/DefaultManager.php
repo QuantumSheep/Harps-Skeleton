@@ -1,8 +1,6 @@
 <?php
 namespace App\Managers;
 
-use Harps\Utils\Database;
-
 class DefaultManager
 {
     public static function GetVersion() {

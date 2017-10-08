@@ -1,5 +1,5 @@
 <?php
-use Harps\Core\Route;
+use Harps\Routing\Route;
 
 /**
  *
